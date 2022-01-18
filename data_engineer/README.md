@@ -7,14 +7,14 @@ O objetivo desse desafio é composto por três partes:
 1. Avaliar as suas habiliadades de Programação;
 1. Julgar a sua experiência técnica;
 1. Entender como você desenha soluções;
-1. Utilização apropriada de git.
 
 ## O que avaliaremos:
 
 Nós avaliaremos
 
 - A qualidade do código: Padrões, clareza, comentários, estilo etc.
-- A solução desenhada na totalidade.
+- A solução desenhada na totalidade;
+- Utilização apropriada de git.
 
 ## Instruções
 
@@ -31,11 +31,11 @@ Extraír, transformar e armazenar informações da [API pública de pokemons (ht
 
 Precisamos informações de *pokemons*, *suas habilidades* e *tipos*:
 
-- **_Pokemons_**: Queremos informações como Nome, altura e outras propriedades
+- **_Pokemons_**: Queremos informações como nome, altura e outras propriedades
   que julgar interessantes;
-- **_Habilidades_**: Precisamos informações como Nome, efeito e quaisquer
+- **_Habilidades_**: Precisamos informações como nome, efeito e quaisquer
   outras informações que julgar legal;
-- **_Tipos_**: Queremos informações da interação de danos com os demais tipos.
+- **_Tipos_**: Queremos informações da interação de danos com os demais tipos de pokemons.
 
 As informações devem ser armazenadas em uma base postgresql, de maneira relaciona,
 no formato que julgar melhor. Queremos realizar análises SQL com dados gerados,
@@ -59,7 +59,7 @@ detalhado acima.
 criação da base de dado local e armazenamento das informações nela.
 
 Também queremos um desenho com o diagrama de relações das entidades que você
-construir, É possível construir um diagrama através do site https://dbdiagram.io,
+construir. É possível construir um diagrama através do site https://dbdiagram.io,
 mas você pode usar a ferramenta que preferir.
 
 Não precisamos de nenhuma imagem com, por exemplo, a base de dados construída -
