@@ -83,3 +83,10 @@ são necessárias para avaliarmos a sua performance._
 - Se esse código precisasse ser executado periodicamente, como
   você faria para que isso fosse realizado?
 - Existe alguma forma de colocarmos testes nesse processos?
+
+# Links Úteis
+
+- Docker
+    + [Postgres with Docker and Docker compose a step-by-step guide for beginners](https://geshan.com.np/blog/2021/12/docker-postgres/#postgres-with-docker)
+    + [Connecting to Postgresql in a docker container from outside](https://stackoverflow.com/questions/37694987/connecting-to-postgresql-in-a-docker-container-from-outside)
+
