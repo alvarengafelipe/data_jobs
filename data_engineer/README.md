@@ -4,7 +4,6 @@
 
 O objetivo desse desafio é composto por três partes:
 
-1. Avaliar as suas habiliadades de Programação;
 1. Julgar a sua experiência técnica;
 1. Entender como você desenha soluções;
 
@@ -14,13 +13,12 @@ Nós avaliaremos
 
 - A qualidade do código: Padrões, clareza, comentários, estilo etc.
 - A solução desenhada na totalidade;
-- Utilização apropriada de git.
 
 ## Instruções
 
-- Por favor, crie uma base de dados docker local para armazenar os resultados;
+- Por favor, crie uma base de dados docker local (PostgreSQL) para armazenar os resultados;
   O código utilizado para criá-la também deve ser compartilhado;
-- Compartilhe os códigos em um repositório aberto no Github;
+- Compartilhe os códigos em um repositório aberto no Github; *Rever*
 - Não há necessidade alguma de interface visual para o desafio proposto.
 
 ## O Desafio
@@ -37,11 +35,11 @@ Precisamos informações de *pokemons*, *suas habilidades* e *tipos*:
   outras informações que julgar legal;
 - **_Tipos_**: Queremos informações da interação de danos com os demais tipos de pokemons.
 
-As informações devem ser armazenadas em uma base postgresql, de maneira relaciona,
+As informações devem ser armazenadas em uma base postgresql, de maneira relacional,
 no formato que julgar melhor. Queremos realizar análises SQL com dados gerados,
 para isso, precisamos garantir que conseguiremos relacionar as 3 entidades de
 forma clara e fácil.  
-A base postgresql deve ser uma instância local Docker.
+
 
 Observações: 
 
@@ -61,28 +59,6 @@ criação da base de dado local e armazenamento das informações nela.
 Também queremos um desenho com o diagrama de relações das entidades que você
 construir. É possível construir um diagrama através do site https://dbdiagram.io,
 mas você pode usar a ferramenta que preferir.
-
-Não precisamos de nenhuma imagem com, por exemplo, a base de dados construída -
-apenas se achar necessário.
-
-# Dicas
-
-- Se necessário, assuma que a base de dados é construída em inglês
-- Todos o código utilizado na produção dos resultados deve nos ser
-  enviado e precisam ser **reproduzíveis**, isto é, se rodarmos o
-  código em nossos ambientes locais, o resultado precisa ser idêntico.
-
-# Perguntas Bônus
-
-_As perguntas à seguir não são pré-requisitos para a entrega, e não
-são necessárias para avaliarmos a sua performance._
-
-- Ao desenhar a solução, pense que poderíamos precisar atualizar
-  informações parciais, como a de um pokemon único. Existe algum
-  desenho de solução que facilite isso?
-- Se esse código precisasse ser executado periodicamente, como
-  você faria para que isso fosse realizado?
-- Existe alguma forma de colocarmos testes nesse processos?
 
 # Links Úteis
 
