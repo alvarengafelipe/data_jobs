@@ -1,3 +1,36 @@
+# Provi - Desafio de Data ;)
+
+Você quer entrar na Provi como Engenheiro de Dados? Então você está no lugar certo.
+
+> Se você não quer entrar na área de Engenharia de Dados então você está no lugar errado :). Confira em [carreiras](https://provi.com.br/carreiras) outras vagas.
+
+Leia **todo** esse documento e submita a sua solução.
+
+Esse desafio foi pensado para que você gaste no máximo 3 horas do seu tempo porém fique a vontade para dedicar quanto tempo você quiser.
+
+Boa sorte!
+
+Ah, não querendo ser chato mas já sendo, siga bem atentamente os passos, caso contrário pode ser que a sua submissão não caia em nosso fluxo adequado de feedback.
+
+## Configuração da Máquina
+
+- [Instale o Docker](https://docs.docker.com/get-docker/)
+- [Instale o Node.js](https://nodejs.org/en/download/)
+    - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) é a melhor forma de instalar Node.js
+
+
+## Configuração do Desafio
+
+### Repositório
+
+- Use esse repositório como ponto de partida através do GitHub Classroom (mais detalhes no fim do documento).
+- Quando você terminar, lembre de fazer `push` em tudo.
+
+O projeto de back-end está na pasta `back` e o projeto de front-end na pasta `front`.
+
+Na raiz também temos um `package.json`, ele é útil para centralizar configurações que valem para ambos os projetos então rode `npm install` na raiz também.
+
+
 # Provi - Desafio de Engenharia de Dados
 
 ## Propósito
