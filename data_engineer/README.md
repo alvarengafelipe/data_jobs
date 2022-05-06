@@ -66,8 +66,7 @@ Precisamos informações de *pokemons*, *suas habilidades* e *tipos*:
     1. Nome
     2. Efeito
     3. Outras informações que julgar interessantes
-
-3.**_Tipos_**
+3. **_Tipos_**
     1. Informações da interação de danos com os demais tipos de pokemons
 
 
