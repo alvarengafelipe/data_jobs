@@ -25,28 +25,11 @@ Ah, não querendo ser chato mas já sendo, siga bem atentamente os passos, caso 
 - Use esse repositório como ponto de partida através do GitHub Classroom (mais detalhes no fim do documento).
 - Quando você terminar, lembre de fazer `push` em tudo.
 
-TODO:
-O projeto de back-end está na pasta `back` e o projeto de front-end na pasta `front`.
-
-Na raiz também temos um `package.json`, ele é útil para centralizar configurações que valem para ambos os projetos então rode `npm install` na raiz também.
-
-
 ### Rodando o banco de dados
 
 Utilizamos PostgreSQL como banco de dados principal, temos um arquivo já configurado utilizando Docker Compose e você pode subir esse banco de dados via Docker com o seguinte comando:
 
 `docker-compose -f docker-compose-pg-only.yml up`
-
-TODO:
-### Rodando cada projeto
-
-Ambos os projetos são instalados e executados da mesma forma:
-
-```bash
-npm install
-npm start
-```
-END TODO.
 
 
 ## O que você precisa entregar?
@@ -92,3 +75,7 @@ Seja criativo!
     + [Postgres with Docker and Docker compose a step-by-step guide for beginners](https://geshan.com.np/blog/2021/12/docker-postgres/#postgres-with-docker)
     + [Connecting to Postgresql in a docker container from outside](https://stackoverflow.com/questions/37694987/connecting-to-postgresql-in-a-docker-container-from-outside)
 
+## Como resolver o desafio
+
+- Crie um novo repositório utilizando o [GitHub Classroom assignment](https://classroom.github.com/a/ZVvFGUg8).
+- Nosso time vai avaliar sua solução e dar feedback em até 15 dias úteis.
